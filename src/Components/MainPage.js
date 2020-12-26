@@ -39,7 +39,7 @@ class MainPage extends Component{
   
                 
                 <h1 className = "h1_main_page" >
-                    <img className = "profile_pic" src = {require("../images/profile.jpeg")} alt = "profile"/>
+                    <img className = "profile_pic" src = {require("../images/Profile.jpeg")} alt = "profile"/>
                     Hi! I'm <p className = "name">Ang Tsog</p>
 
                 </h1>
