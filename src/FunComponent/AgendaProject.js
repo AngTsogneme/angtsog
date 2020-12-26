@@ -143,7 +143,6 @@ class AgendaProject extends Component{
                         
                     )  : this.handleOverflow()}
 
-                    {console.log(this.state.list)}
                 </div>
           
             </div>
