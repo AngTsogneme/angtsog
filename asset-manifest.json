@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/angtsog/static/css/main.b053a9a5.chunk.css",
+    "main.css": "/angtsog/static/css/main.01c878b6.chunk.css",
     "main.js": "/angtsog/static/js/main.68425b04.chunk.js",
     "main.js.map": "/angtsog/static/js/main.68425b04.chunk.js.map",
     "runtime-main.js": "/angtsog/static/js/runtime-main.c04b79ef.js",
@@ -8,7 +8,7 @@
     "static/js/2.f1dde62c.chunk.js": "/angtsog/static/js/2.f1dde62c.chunk.js",
     "static/js/2.f1dde62c.chunk.js.map": "/angtsog/static/js/2.f1dde62c.chunk.js.map",
     "index.html": "/angtsog/index.html",
-    "static/css/main.b053a9a5.chunk.css.map": "/angtsog/static/css/main.b053a9a5.chunk.css.map",
+    "static/css/main.01c878b6.chunk.css.map": "/angtsog/static/css/main.01c878b6.chunk.css.map",
     "static/js/2.f1dde62c.chunk.js.LICENSE.txt": "/angtsog/static/js/2.f1dde62c.chunk.js.LICENSE.txt",
     "static/media/Profile.jpeg": "/angtsog/static/media/Profile.45a3cc2d.jpeg",
     "static/media/logo.png": "/angtsog/static/media/logo.96138be7.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.c04b79ef.js",
     "static/js/2.f1dde62c.chunk.js",
-    "static/css/main.b053a9a5.chunk.css",
+    "static/css/main.01c878b6.chunk.css",
     "static/js/main.68425b04.chunk.js"
   ]
 }
