@@ -1,6 +1,11 @@
 import React, {Component} from 'react'
 import {Link} from "react-scroll"
 
+import {Navbar, Nav, } from 'react-bootstrap'
+import {BrowserRouter as Router} from "react-router-dom"
+
+///import {GiJug} from 'react-icons/gi'
+
 class NavBar extends Component {
     constructor(){
         super()
@@ -29,77 +34,27 @@ class NavBar extends Component {
             <div>
             
                 
-                    <nav className = {this.state.show ? 'active' : 'hidden'} >
-                        <ul >
-                            <li >
-                                <Link 
-                                    activeClass = "activeL"
-                                    to = "mainpage"
-                                    spy = {true}
-                                    smooth = {true}
-                                    offset = {-80}
-                                    duration={800}>
-                                    Main Page
-                                </Link>
-                            </li>
-                            <li>
-                                <Link 
-                                    activeClass = "activeL"
-                                    to = "skills"
-                                    spy = {true}
-                                    smooth = {true}
-                                    offset = {-80}
-                                    duration={800}>
-                                    Skills
-                                </Link>
-                            </li>
-                            <li>
-                                <Link 
-                                    activeClass = "activeL"
-                                    to = "education"
-                                    spy = {true}
-                                    smooth = {true}
-                                    offset = {-80}
-                                    duration={800}>
-                                    Education
-                                </Link>
-                            </li>
-                            <li>
-                                <Link 
-                                    activeClass = "activeL"
-                                    to = "workexperience"
-                                    spy = {true}
-                                    smooth = {true}
-                                    offset = {-80}
-                                    duration={800}>
-                                    Work Experience
-                                </Link>
-                            </li>
-                            <li>
-                                <Link 
-                                    activeClass = "activeL"
-                                    to = "agendaproject"
-                                    spy = {true}
-                                    smooth = {true}
-                                    offset = {-80}
-                                    duration={800}>
-                                    Agenda Project
-                                </Link>
-                            </li>
-                            <li>
-                                <Link 
-                                    activeClass = "activeL"
-                                    to = "jugpuzzle"
-                                    spy = {true}
-                                    smooth = {true}
-                                    offset = {-80}
-                                    duration={800}>
-                                    Jug Puzzle
-                                </Link>
-                            </li>
-                        </ul>
+                    <div className = {this.state.show ? 'active' : 'hidden'} >
+                        <Router>
+                            <Navbar expand="md" fixed = 'top'>
+                                <Navbar.Brand as = {Link} to = 'mainpage'><img className='my-logo' src = {process.env.PUBLIC_URL + '/mylogo.png'} alt = "Profile"/></Navbar.Brand>
+                                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                                <Navbar.Collapse id="basic-navbar-nav">
+                                    <Nav className = 'ml-auto'>
+                                        <Nav.Link as= {Link} to = 'projects'> Projects </Nav.Link>
+                                        <Nav.Link as= {Link} to = 'skills' > Skills </Nav.Link>
+                                        <Nav.Link as = {Link} to = 'education'> Education</Nav.Link>
+                                        <Nav.Link as = {Link} to = 'workexperience'> Work Experience</Nav.Link>
+
+                                    </Nav>
+                                </Navbar.Collapse>
+                            </Navbar>
+                    
+                        </Router>
+                       
+            
                         
-                    </nav>
+                    </div>
                 
                     
             </div>
