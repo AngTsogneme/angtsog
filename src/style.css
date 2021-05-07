@@ -1161,6 +1161,9 @@ nav{
 .agenda-card{
     box-shadow: 0 10px 10px  black;
 }
+.agenda-body{
+    text-align: center;
+}
 
 .agenda-card-image{
     width:200px;

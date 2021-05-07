@@ -1,6 +1,5 @@
 import React from 'react'
 
-import AgendaProject from './AgendaProject'
 import JugPuzzle from "./JugPuzzle"
 import Main from "./Hatchways/Main"
 // import CurrencyExchange from './Conversions/CurrencyExchange'
@@ -46,8 +45,14 @@ function Projects(){
                             <Card.Text>Enter and delete tasks.</Card.Text>
                             <Accordion.Toggle className = "agenda-toggle" as={Button} variant = 'link' eventKey='0'>See Project</Accordion.Toggle>
                             <Accordion.Collapse eventKey = "0">
-                                <Card.Body>
-                                    <AgendaProject/>
+                                <Card.Body className = "agenda-body">
+                                    <a   
+                                        href="https://angtsogneme.github.io/taskmanager/" 
+                                        target = "_blank"
+                                        rel="noopener noreferrer"> 
+                                        https://angtsogneme.github.io/taskmanager/
+
+                                    </a>
                                 </Card.Body>
                             </Accordion.Collapse>
                     
